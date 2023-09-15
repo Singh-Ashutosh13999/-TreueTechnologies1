@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UnitCSS.css">
+    <title>Unit Converter</title>
+    <script src="U.js"></script>
+</head>
+<body>
+    
+    <div id="Main">
+        <div id="HH">
+        <div id="left">
+            <h1><u>Unit</u></h1>
+            <label for="L">FROM:</label>
+            <select name="select-group" id="ToUnit">
+                <option value="Select">Select</option>
+                <option value="Centimeter">Centimeter</option>
+                <option value="Milimeter">Milimeter</option>
+                <option value="Decimeter">Decimeter</option>
+                
+                
+            </select>
+            <input type="number" placeholder="Input Length" id="Flength">
+            
+            <br>
+            <button  id="ResetBtn">Reset</button>
+        </div>
+    <span>==></span>
+    <div id="Right">
+        <h1><u>Convert</u></h1>
+        <label for="LH">TO:</label>
+        <select name="select-group1" id="ToUnit1">
+            <option value="Select">Select</option>
+            <option value="Centimeter">Centimeter</option>
+            <option value="Milimeter">Milimeter</option>
+            <option value="Decimeter">Decimeter</option>
+            
+            
+        </select>
+        <input type="number" id="TLength" placeholder="Output">
+        
+        <br>
+        <button  id="Change">Change</button>
+    </div>
+    </div>
+</div>
+    </div>
+    
+</body>
+
+</html>

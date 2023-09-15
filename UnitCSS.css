@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#Main{
+    height:  100%;
+    width: 100%;
+    
+    background-color: rgb(76, 125, 139);
+}
+#HH{
+
+    display: flex;
+    text-align: center;
+    
+    
+}
+#HH span{
+    margin-top: 140px;
+    
+}
+#left h1{
+    text-align: center;
+}
+#left{
+    background-color: rgb(38, 168, 118);
+    width: 50%;
+    height: 33%;
+
+        margin-left: 200px;
+    margin-top: 100px;
+}
+#left button{
+    margin-top: 20px;
+    margin-left: 65px;
+
+}
+#left select{
+    color: red;
+}
+#Right{
+    background-color: rgb(61, 129, 90);
+    width:50%;
+    
+    margin-right: 200px;
+    margin-top: 100px;
+
+}
+#Right h1{
+    text-align: center;
+}
+#Right button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#Right select{
+    color: red;
+}
+
+
